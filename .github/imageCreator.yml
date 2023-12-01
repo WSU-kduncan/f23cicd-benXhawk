@@ -1,0 +1,13 @@
+on:
+  push
+
+jobs:
+  create-image:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Install-Docker
+      run: sudo apt install docker
+    - name: Install-Dependencies
+      run: sudo apt install docker-podman
+    - name: Install-io
+      run: sudo apt install docker.io
