@@ -8,9 +8,9 @@ jobs:
     - name: Install-Docker
       run: sudo apt install docker
     - name: Install-Dependencies
-      run: sudo apt install docker-podman
+      run: sudo apt install podman
     - name: Install-io
-      run: sudo apt install docker.
+      run: sudo apt install docker.io
     - name: Checkout
       uses: docker/build-push-action@v1
       with: 
