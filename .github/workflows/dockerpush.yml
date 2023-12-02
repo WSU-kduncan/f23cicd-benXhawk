@@ -16,6 +16,7 @@ jobs:
       with: 
         context: .
         file: WSU-kduncan/f23cicd-benXhawk/Dockerfile
+        push: true
         username: ${{ github.actor }}
         password: ${{ secrets.GITHUB_TOKEN}}
         registry: docker.pkg.github.com
