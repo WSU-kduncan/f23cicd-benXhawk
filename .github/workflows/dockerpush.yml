@@ -5,6 +5,8 @@ jobs:
   create-image:
     runs-on: ubuntu-latest
     steps:
+    - name: Get-Updates
+      run: sudo apt update
     - name: Install-Docker
       run: sudo apt install docker
     - name: Install-Dependencies
