@@ -32,4 +32,8 @@ Part 2:
 	Github Workflow
 		Creating Github repository secrets lets you use reference specific text as arguments when configuring
 		the workflow file; you can create them by navigating to the actions tab in the repository settings. 
-		I made a secret to reference my DockerHub username and one for my password. 
+		I made a secret to reference my DockerHub username and one for my password.
+		
+		Github workflow works as a method to automate processes of pushing or pulling files to other locations and
+		it is configured through the use of a .yml file. What makes it especially useful is its reusability, as only 
+		small changes may need to be made once the main functions are established.  
