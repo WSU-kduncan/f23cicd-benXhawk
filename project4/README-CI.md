@@ -4,7 +4,7 @@
 -	 the website can be consistently built and run automatically on different machines, as well as giving a degree of privacy. 
 
 -	 Building and Running Dockerfile
--         I used the commands, "sudo apt install docker", "sudo apt install podman", and "sudo apt install docker.io" to
+- I used the commands, "sudo apt install docker", "sudo apt install podman", and "sudo apt install docker.io" to
 -	 install the actual docker package onto my instance, and the podman dependency to be able to interact and run 
 -	 container images. Docker.io is the version of docker created for ubuntu instances, so I had to install that as well
 -	 For my dockerfile, I chose to use nginx for my webserver, and I copied the html file contents into the docker images's
