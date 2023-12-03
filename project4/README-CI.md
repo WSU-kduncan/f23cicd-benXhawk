@@ -20,22 +20,22 @@
 # Part 2: 
 -	DockerHub:
   	-	To create the Dockerhub repository, I went to the repository tab in the top menu, then clicked on the 
-	-	"Create Repository" button. I named it project4, and chose to make it a public repository, since I would be 
-	-	pushing images remotely. 
+		"Create Repository" button. I named it project4, and chose to make it a public repository, since I would be 
+		pushing images remotely. 
 
 -	Pushing Images with Ubuntu
 	-	To push the image to my repository on DockerHub, I first used the command "sudo docker login", and it asked me
-	-	to enter my username and password. I used the container that I had built as the argument for the "sudo docker 
-	-	commit" command and used "sudo docker push w267bxh/project4" to push the image.
+		to enter my username and password. I used the container that I had built as the argument for the "sudo docker 
+		commit" command and used "sudo docker push w267bxh/project4" to push the image.
 -	Link to Repository: https://hub.docker.com/repository/docker/w267bxh/project4/general
 	
 -	Github Workflow
 	-	Creating Github repository secrets lets you use reference specific text as arguments when configuring
-	-	the workflow file; you can create them by navigating to the actions tab in the repository settings. 
-	-	I made a secret to reference my DockerHub username and one for my password.
+		the workflow file; you can create them by navigating to the actions tab in the repository settings. 
+		I made a secret to reference my DockerHub username and one for my password.
 		
 	-	Github workflow works as a method to automate processes of pushing or pulling files to other locations and
-	-	it is configured through the use of a .yml file. What makes it especially useful is its reusability, as only 
-	-	small changes may need to be made once the main functions are established.
-	-	I used the Github secrets I set up earlier to login into my DockerHub account, so these would need to be changed 
-	-	on an individual basis to work for different accounts.  
+		it is configured through the use of a .yml file. What makes it especially useful is its reusability, as only 
+		small changes may need to be made once the main functions are established.
+		I used the Github secrets I set up earlier to login into my DockerHub account, so these would need to be changed 
+		on an individual basis to work for different accounts.  
