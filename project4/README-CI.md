@@ -1,7 +1,7 @@
 # Part 1:
 	
 -	 The purpose of this part of the project is to create a container image to host my website on. The container ensures that
--	 the website can be consistently built and run automatically on different machines, as well as giving a degree of privacy. 
+	 the website can be consistently built and run automatically on different machines, as well as giving a degree of privacy. 
 
 -	 Building and Running Dockerfile
 - I used the commands, "sudo apt install docker", "sudo apt install podman", and "sudo apt install docker.io" to
