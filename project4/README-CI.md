@@ -36,4 +36,6 @@ Part 2:
 		
 		Github workflow works as a method to automate processes of pushing or pulling files to other locations and
 		it is configured through the use of a .yml file. What makes it especially useful is its reusability, as only 
-		small changes may need to be made once the main functions are established.  
+		small changes may need to be made once the main functions are established.
+		I used the Github secrets I set up earlier to login into my DockerHub account, so these would need to be changed 
+		on an individual basis to work for different accounts.  
