@@ -19,7 +19,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: w267bxh/project4
+          images: ${{ github.repository }}
       - name: Docker-Login
         uses: docker/login-action@v2
         with:
