@@ -2,12 +2,12 @@ on:
   workflow_dispatch:
   push:
     branches: 
-      - 'main'
+      - 'origin'
     tags: 
       - 'v*'
   pull_request: 
     branches: 
-      - 'main'
+      - 'origin'
 
 jobs:
   create-image:
