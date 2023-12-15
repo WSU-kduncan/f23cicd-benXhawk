@@ -1,0 +1,7 @@
+[
+        {
+                "id": "webhook",
+                "execute-command": "/home/ubuntu/scriptfolder/script.sh",
+                "command-working-directory": "/var/webhook"
+        }
+]
