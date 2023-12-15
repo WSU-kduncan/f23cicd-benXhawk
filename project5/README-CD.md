@@ -25,4 +25,5 @@ the image being pushed with the new version number of the Github repo.
 
 
 - WebHooks 
-	 
+
+- Work as a way of deploying new info to different systems	 
