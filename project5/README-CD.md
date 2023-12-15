@@ -17,4 +17,12 @@ the image being pushed with the new version number of the Github repo.
 
 - [DockerHub Repo Link](https://hub.docker.com/repository/docker/w267bxh/project4/general)
 
- 
+
+# Part 2:
+
+- I installed docker and its dependencies by the following commands: 'sudo apt install docker', 'sudo apt install docker.io' and 
+'sudo apt install podman'.
+
+
+- WebHooks 
+	 
